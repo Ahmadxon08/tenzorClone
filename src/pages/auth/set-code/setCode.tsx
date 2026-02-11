@@ -1,11 +1,10 @@
-"use client";
-
 import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Language from "../../../components/LanguageSelector";
 import { toast } from "react-toastify";
 import { apiService } from "../../../services/api";
+import { authService } from "../../../services/auth.services";
 
 const RESEND_TIME = 120;
 
@@ -63,7 +62,7 @@ const SetCode: React.FC = () => {
     setError(null);
 
     try {
-      const res = await apiService.verifyCode(phoneNumber, code);
+      const res = await authService.verifyCode(phoneNumber, code);
 
       if (res.success) {
         navigate("/login");

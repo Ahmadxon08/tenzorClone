@@ -37,7 +37,8 @@ import { UserRoute } from "./components/UserRoute";
 // import CandidateProfilePage from "./pages/CandidateProfilePage";
 import VacancyFormPage from "./pages/Dashboard/createVacation/CreateVacationPage";
 import SetCode from "./pages/auth/set-code/setCode";
-import ResetPasswordPage from "./pages/auth/resendCode/ResetPasswordPage";
+import ResetPasswordPage from "./pages/auth/resendCode/ForgetPasswordPage";
+import ForgetPasswordPage from "./pages/auth/resendCode/ForgetPasswordPage";
 
 interface AppProps {
   tenantId: string;
@@ -64,7 +65,7 @@ function App({ tenantId, widgetConfig }: AppProps) {
             <Routes>
               <Route path="/login" element={<LoginPage />} />
               <Route path="/register" element={<RegisterPage />} />
-              <Route path="/reset-password" element={<ResetPasswordPage />} />
+              <Route path="/forget-password" element={<ForgetPasswordPage />} />
 
               {/* <Route path="/" element={<IntegratedChatVacancy />} /> */}
               {/* <Route path="/plans" element={<PlansPage />} /> */}

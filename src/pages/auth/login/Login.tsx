@@ -1,4 +1,3 @@
-// pages/auth/LoginPage.tsx
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -11,6 +10,7 @@ import { toast } from "react-toastify";
 import GuestRoute from "../../../components/GuestRoutes";
 import { loginSchema } from "../schema/auth.error";
 import type { z } from "zod";
+import { authService } from "../../../services/auth.services";
 
 type LoginFormData = z.infer<typeof loginSchema>;
 
@@ -75,8 +75,10 @@ const LoginPage: React.FC = () => {
   const goToRegister = () => {
     navigate("/register");
   };
-  const handleForgetPassword = () => {
+  const handleForgetPassword = async () => {
     const phone = getValues("phoneNumber");
+
+    // ZOD VALIDATION
     try {
       loginSchema.pick({ phoneNumber: true }).parse({ phoneNumber: phone });
     } catch (err: any) {
@@ -84,9 +86,21 @@ const LoginPage: React.FC = () => {
       return;
     }
 
-    navigate("/reset-password", {
-      state: { phoneNumber: phone },
-    });
+    try {
+      await authService.forgetPasswordRequest(phone);
+
+      toast.success(
+        t("verification.codeSent", {
+          defaultValue: "Verification code sent",
+        }),
+      );
+
+      navigate("/forget-password", {
+        state: { phoneNumber: phone },
+      });
+    } catch (err: any) {
+      toast.error(err.message || t("login.error"));
+    }
   };
 
   return (

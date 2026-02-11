@@ -103,6 +103,27 @@ class authApiService {
     return response.json();
   }
 
+  async forgetPasswordRequest(
+    phoneNumber: string,
+  ): Promise<{ message: string }> {
+    const response = await fetch(
+      `${API_BASE_URL}/reset_password/request?phoneNumber=${encodeURIComponent(
+        phoneNumber,
+      )}`,
+      {
+        method: "POST",
+        headers: this.getAuthHeaders(),
+      },
+    );
+
+    if (!response.ok) {
+      const text = await response.text().catch(() => "");
+      throw new Error(text || "Reset password failed");
+    }
+
+    return response.json();
+  }
+
   async resetPasswordVerify({
     email,
     code,
@@ -163,7 +184,7 @@ class authApiService {
   }
 
   // forget password logic
-  async verifyRessetPasswordCode(
+  async verifyForgetPasswordCode(
     phoneNumber: string,
     code: string,
   ): Promise<VerifyResponse> {

@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -10,7 +8,7 @@ import { authService } from "../../../services/auth.services";
 
 const RESEND_TIME = 120;
 
-const ResetPasswordPage: React.FC = () => {
+const ForgetPasswordPage: React.FC = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
   const location = useLocation();
@@ -54,7 +52,7 @@ const ResetPasswordPage: React.FC = () => {
     setError(null);
 
     try {
-      const res = await authService.verifyRessetPasswordCode(phoneNumber, code);
+      const res = await authService.verifyForgetPasswordCode(phoneNumber, code);
 
       if (res.success) {
         navigate("/new-password", {
@@ -240,4 +238,4 @@ const ResetPasswordPage: React.FC = () => {
   );
 };
 
-export default ResetPasswordPage;
+export default ForgetPasswordPage;
