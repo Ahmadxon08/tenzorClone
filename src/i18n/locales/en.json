@@ -1,0 +1,1151 @@
+{
+  "login": {
+    "title": "Login",
+    "subtitle": "Enter the admin panel",
+    "phoneNumber": "Phone number",
+    "password": "Password",
+    "emailPlaceholder": "email@example.com",
+    "passwordPlaceholder": "••••••••",
+    "loginButton": "Login",
+    "loggingIn": "Logging in...",
+    "register": "Register",
+    "error": "Invalid email or password",
+    "forgotPassword": "Forgot your password?",
+
+    "phoneRequired": "Enter your phone number",
+    "phoneInvalid": "Invalid phone format",
+    "passwordRequired": "Enter your password",
+    "passwordMin": "Password must be at least 6 characters"
+  },
+  "waitPage": {
+    "days": "Days",
+    "hello": "Hello!",
+    "timeLeft": "Time until interview start:",
+    "hours": "hours",
+    "minutes": "minutes",
+    "seconds": "seconds",
+    "beforeStart": "Before the start of your meeting",
+    "meanwhile": "Meanwhile have some tea and a book to keep you busy",
+    "ready": "Your interview is ready to begin.",
+    "refresh": "Refresh to Start"
+  },
+  "register": {
+    "title": "Sign Up",
+    "subtitle": "Create a new account",
+    "email": "Email",
+    "password": "Password",
+
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Enter your full name",
+    "phoneNumber": "Phone number",
+    "phonePlaceholder": "+998 90 123 45 67",
+    "confirmPassword": "Confirm password",
+    "confirmPasswordPlaceholder": "Re-enter your password",
+    "passwordPlaceholder": "Enter your password",
+
+    "companyName": "Company Name",
+    "companyNamePlaceholder": "Enter your company name",
+    "companyLanguage": "Company Language",
+    "companyLanguagePlaceholder": "Enter your main company language",
+    "companyLogo": "Company Logo",
+    "companyLogoPlaceholder": "Upload your company logo",
+    "siteDomain": "Website Domain",
+    "siteDomainPlaceholder": "Enter your website domain",
+    "description": "Description",
+    "descriptionPlaceholder": "Describe your company",
+    "tokenDuration": "Token Duration",
+    "tokenDurationPlaceholder": "Select token duration",
+    "tokenDurationDay": "Day",
+    "tokenDurationWeek": "Week",
+    "tokenDurationMonth": "Month",
+
+    "emailPlaceholder": "email@example.com",
+    "submit": "Create account",
+    "creating": "Creating...",
+    "error": "A user with this email already exists.",
+    "goToLogin": "Login",
+    "haveAccount": "Already have an account?",
+    "brand": "JOB",
+    "brandX": "X",
+    "verifyTitle": "Verify Your Email",
+    "verifySubtitle": "We sent a verification code to your email.",
+    "codePlaceholder": "Verification code",
+    "verify": "Verify",
+    "verifying": "Verifying...",
+    "resendCode": "Resend Code",
+    "resendIn": "Resend in {{seconds}}s",
+    "resendSuccess": "Verification code sent again.",
+    "resendError": "Failed to resend the code.",
+    "verifyError": "Invalid verification code.",
+    "enterCode": "Please enter the verification code.",
+    "back": "Back",
+
+    "fullNameRequired": "Enter full name",
+    "fullNameMin": "Full name must be at least 3 characters",
+    "phoneRequired": "Enter your phone number",
+    "phoneInvalid": "Invalid phone format",
+    "passwordRequired": "Enter your password",
+    "passwordMin": "Password must be at least 6 characters",
+    "confirmPasswordRequired": "Confirm your password",
+    "companyNameRequired": "Enter company name",
+    "companyNameMin": "Company name must be at least 2 characters",
+    "descriptionRequired": "Enter description",
+    "descriptionMin": "Description must be at least 10 characters",
+    "tokenDurationRequired": "Enter token duration",
+    "passwordsDontMatch": "Passwords do not match"
+  },
+  "resetPassword": {
+    "title": "Reset Password",
+    "subtitle": "Enter your email to receive a reset code",
+    "email": "Email",
+    "emailPlaceholder": "email@example.com",
+    "sendCode": "Send Code",
+    "sending": "Sending...",
+    "haveCode": "Have a code?",
+    "verifyTitle": "Set New Password",
+    "verifySubtitle": "Enter the code sent to your email and set a new password",
+    "codePlaceholder": "Verification code",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "passwordPlaceholder": "••••••••",
+    "confirmPasswordPlaceholder": "••••••••",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "error": "Something went wrong. Please try again.",
+    "back": "Back",
+    "resendCode": "Resend Code",
+    "resendIn": "Resend in {{seconds}}s",
+    "resendSuccess": "Reset code sent again.",
+    "resendError": "Failed to resend the reset code.",
+    "verifyError": "Invalid verification code.",
+    "enterCode": "Please enter the verification code.",
+    "message": "Verification code sent to your email"
+  },
+  "navbar": {
+    "home": "Home",
+    "partners": "Partners",
+    "features": "Features",
+    "collaboration": "Collaboration",
+    "analytics": "Analytics",
+    "navigation": "Navigation",
+    "login": "Login",
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "sidebar": {
+    "vacancies": "Vacancies",
+    "applications": "Applications",
+    "statistics": "Statistics",
+    "settings": "Settings",
+    "status": "Status",
+    "online": "Online",
+    "sites": "Sites",
+    "results": "Results",
+    "crm": "CRM systems"
+  },
+  "workExperience": {
+    "noExperience": "No Experience",
+    "zeroToOne": "0–1 year",
+    "oneToThree": "1–3 years",
+    "threeToSix": "3–6 years",
+    "sixPlus": "6+ years"
+  },
+  "scheduleOptions": {
+    "fiveTwo": "5/2",
+    "sixOne": "6/1",
+    "twoTwo": "2/2",
+    "remote": "Remote"
+  },
+  "skills": {
+    "adaptability": "Adaptability",
+    "initiative": "Initiative",
+    "workEthic": "Work Ethic",
+    "peopleSkills": "People Skills",
+    "criticalThinking": "Critical Thinking",
+    "emotionalStability": "Emotional Stability",
+    "proactivity": "Proactivity",
+    "graphql": "GraphQL",
+    "hrms": "HRMS Systems",
+    "crm": "CRM Systems"
+  },
+  "common": {
+    "language": "Language",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "noCandidates": "No candidates applied to this position",
+    "close": "Close",
+    "open": "Open",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "import": "Import",
+    "download": "Download",
+    "upload": "Upload",
+    "view": "View",
+    "add": "Add",
+    "remove": "Remove",
+    "update": "Update",
+    "submit": "Submit",
+    "reset": "Reset",
+    "confirm": "Confirm",
+    "loading": "Loading...",
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Info",
+    "refresh": "Refresh",
+    "saving": "Saving...",
+    "verifying": "Verifying..."
+  },
+  "search": {
+    "placeholder": "Search vacancies..."
+  },
+  "siteSelect": {
+    "placeholder": "Select site"
+  },
+  "createButton": "Create",
+  "loading": "Loading...",
+  "empty": {
+    "noResults": "No results found",
+    "noVacancies": "No vacancies available",
+    "searchAgain": "Try a different keyword",
+    "createFirst": "Create your first vacancy and start finding candidates",
+    "createVacancy": "Create vacancy"
+  },
+  "statsCards": {
+    "title": "Status",
+    "refreshAria": "Refresh",
+    "refreshButton": "Refresh",
+    "totalVacancies": {
+      "title": "Total Vacancies"
+    },
+    "vacanciesCount": {
+      "title": "Number of Applications"
+    },
+    "newApplications": {
+      "title": "New Applications",
+      "hint": "Last 7 days"
+    },
+    "widgetStatus": {
+      "title": "Widget Status",
+      "value": "Active",
+      "hint": "Online"
+    },
+    "lastUpdate": {
+      "prefix": "Last update: ",
+      "time": "now"
+    }
+  },
+  "vacancyCard": {
+    "editTitle": "Edit",
+    "deleteTitle": "Delete",
+    "noCandidates": "No candidates applied to this position",
+    "message": "After the interview",
+    "vacancyModal": {
+      "delete": "Delete",
+      "deleting": "Deleting...",
+      "cancel": "Cancel",
+      "title": "Delete vacancy?",
+      "message": "Are you sure you want to delete the \"{{title}}\" vacancy?"
+    }
+  },
+  "widgetInfo": {
+    "widgetCode": {
+      "title": "Widget Code",
+      "copied": "Copied",
+      "copy": "Copy"
+    },
+    "siteInfo": {
+      "title": "Site Information",
+      "publicKey": "Public Key",
+      "domain": "Domain",
+      "openSite": "Open Site"
+    },
+    "help": {
+      "title": "Need Help?",
+      "text": "Guide to installing the widget",
+      "view": "View"
+    }
+  },
+  "widgetConfigurator": {
+    "header": "Widget Settings",
+    "publicKey": "Public Key",
+    "presets": "Preset Themes",
+    "Moviy": "Blue",
+    "Yashil": "Green",
+    "Qora": "Black",
+    "uploadIcon": "Upload Icon",
+    "widgetPosition": "Widget Position",
+    "positionRight": "Right",
+    "positionLeft": "Left",
+    "positionBottom": "Bottom",
+    "stickedToScreen": "Pinned to the side of the screen",
+    "Glassmorphism (Indigo)": "Glassmorphism (Indigo)",
+    "Glassmorphism (Dark Frost)": "Glassmorphism (Dark Frost)",
+    "Glassmorphism (Light Frost)": "Glassmorphism (Light Frost)",
+    "specialSettings": "Custom Settings",
+    "btnColor": "Button Color",
+    "btnTextColor": "Button Text Color",
+    "headerBg": "Header Background",
+    "headerText": "Header Text Color",
+    "messageBg": "Bot Message Background",
+    "messageText": "Bot Message Text",
+    "chatBg": "Chat Background",
+    "userMessageBg": "User Message Background",
+    "userMessageText": "User Message Text",
+    "readyScript": "Ready Script",
+    "copied": "Copied",
+    "copy": "Copy",
+    "installationNote": "Add this code to your website’s HTML file",
+    "preview": "Preview (Real-time)",
+    "chat": "Chat",
+    "HRdepartment": "Human Resources Department",
+    "typeMessage": "Type a message...",
+    "advice": "💡 Tip",
+    "customizeNote": "Change colors and see the result instantly. You can choose from 3 preset themes or create your own.",
+    "mockData": [
+      {
+        "id": 1,
+        "title": "Call Center Operator",
+        "salary": "N/A",
+        "applied": false
+      },
+      {
+        "id": 2,
+        "title": "Backend",
+        "salary": "400$-700$",
+        "applied": false
+      },
+      {
+        "id": 3,
+        "title": "Frontend",
+        "salary": "400$-700$",
+        "applied": true
+      },
+      {
+        "id": 4,
+        "title": "AI Engineer",
+        "salary": "400$-700$",
+        "applied": false
+      }
+    ]
+  },
+  "vacancyPage": {
+    "applications": "Applications:",
+    "header": {
+      "title": "Vacancies",
+      "subtitle": "Create and manage your job vacancies"
+    }
+  },
+  "sitesPage": {
+    "header": {
+      "title": "Sites",
+      "subtitle": "Manage your sites"
+    },
+    "stats": {
+      "total": "Total Sites",
+      "active": "Active Sites",
+      "inactive": "Inactive Sites"
+    },
+    "alerts": {
+      "loadError": "Error loading sites",
+      "deleteError": "Error deleting site",
+      "addError": "Error adding site",
+      "domainError": "Site domain must start with http:// or https://",
+      "addSuccess": "Site added successfully!",
+      "deleteSuccess": "Site deleted successfully",
+      "deleteConfirm": "Are you sure you want to delete this site?"
+    },
+    "addForm": {
+      "title": "Add New Site",
+      "nameLabel": "Site Name *",
+      "namePlaceholder": "My Site",
+      "domainLabel": "Site Domain *",
+      "domainPlaceholder": "https://example.com",
+      "submitButton": "Add Site",
+      "submitting": "Adding..."
+    },
+    "list": {
+      "title": "Available Sites",
+      "loading": "Loading...",
+      "empty": {
+        "title": "No sites available",
+        "description": "Add your first site and start managing vacancies"
+      },
+      "statusActive": "Active",
+      "statusInactive": "Inactive",
+      "configButton": "Configure",
+      "editButton": "Edit",
+      "editModal": {
+        "title": "Edit Site",
+        "message": "You can update the information for \"{{title}}\" below.",
+        "nameLabel": "Site Name",
+        "domainLabel": "Site Domain",
+        "namePlaceholder": "Enter new site name",
+        "domainPlaceholder": "Enter new domain URL",
+        "saveName": "Update Name",
+        "saveDomain": "Update Domain",
+        "saving": "Saving...",
+        "cancel": "Cancel"
+      },
+      "deleteButton": "Delete",
+      "deleteModal": {
+        "title": "Delete site?",
+        "message": "Are you sure you want to delete the \"{{title}}\" site?",
+        "delete": "Delete",
+        "deleting": "Deleting...",
+        "cancel": "Cancel"
+      }
+    }
+  },
+  "applicationsPage": {
+    "header": {
+      "title": "Applications",
+      "subtitle": "View and filter all candidates"
+    },
+    "stats": {
+      "totalApplications": {
+        "title": "Total Applications"
+      },
+      "highScore": {
+        "title": "Number of high scores"
+      },
+      "avgScore": {
+        "title": "Number of average scores"
+      }
+    },
+    "search": {
+      "placeholder": "Search by name, phone or vacancy..."
+    },
+    "siteSelect": {
+      "placeholder": "Select site"
+    },
+    "refreshButton": "Refresh",
+    "loading": "Loading...",
+    "filters": {
+      "title": "Filters",
+      "score": "Score",
+      "result": "Result",
+      "passed": "Passed",
+      "failed": "Failed",
+      "all": "All"
+    },
+    "empty": {
+      "noResults": "No results found",
+      "noApplications": "No applications yet",
+      "searchAgain": "Try a different search query",
+      "createFirst": "Applications for vacancies will appear here"
+    },
+    "card": {
+      "scoreUnit": "points",
+      "resumeTitle": "Resume",
+      "downloadResume": "Download resume",
+      "downloading": "Downloading...",
+      "download": "Download",
+      "view": "View",
+      "viewed": "Viewed",
+      "passed": "Passed",
+      "failed": "Failed"
+    },
+    "errors": {
+      "errorDownload": "Download failed",
+      "errorLoad": "Failed to load applications",
+      "errorFilter": "Failed to apply filters"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "rowsPerPage": "Rows per page",
+      "select": "Select",
+      "page": "Page",
+      "of": "of",
+      "noData": "No data available"
+    },
+    "chatModal": {
+      "title": "Chat with {{name}}",
+      "closeButton": "Close chat",
+      "noMessages": "No messages yet",
+      "loading": "Loading chat...",
+      "viewChat": {
+        "chat": "View Chat"
+      },
+      "sendMessage": "Send message",
+      "placeholder": "Type a message...",
+      "downloadVideo": "Download Video",
+      "downloading": "Downloading...",
+      "videoNotSupported": "Your browser does not support the video tag."
+    },
+    "tabs": {
+      "applications": "Applications",
+      "accepted": "Accepted",
+      "results": "Videos"
+    },
+    "table": {
+      "name": "Name",
+      "phone": "Phone",
+      "vacancy": "Vacancy",
+      "site": "Site",
+      "score": "Score",
+      "status": "Status",
+      "date": "Date",
+      "actions": "Actions",
+      "view": "View CV",
+      "download": "Download Resume",
+      "chat": "Chat",
+      "call": "Call"
+    },
+    "call": {
+      "title": "Call to Interview",
+      "applicant": "Applicant",
+      "details": "Interview Details",
+      "position": "Position",
+      "positionPh": "Example: Senior Developer",
+      "description": "Description",
+      "descriptionPh": "Write interview details...",
+      "date": "Interview date",
+      "company": "Company",
+      "hr": "HR Information",
+      "save": "Save",
+      "saveSuccess": "HR profile saved ✓",
+      "loadSuccess": "{name} loaded ✓",
+      "savedProfiles": "Saved profiles",
+      "deleteConfirm": "Are you sure you want to delete this profile?",
+      "deleted": "Profile deleted",
+      "hrName": "HR Name",
+      "hrNamePh": "Example: John Smith",
+      "hrPhone": "HR Phone number",
+      "hrPhonePh": "+998 90 123 45 67",
+      "location": "Location (select on map)",
+      "requiredNote": "* Required fields",
+      "cancel": "Cancel",
+      "submit": "Send SMS",
+      "errorRequired": "Please fill in all required fields"
+    }
+  },
+  "common1": {
+    "refresh": "Refresh"
+  },
+  "error": {
+    "fetchFailed": "Error loading data",
+    "updateFailed": "Error updating profile"
+  },
+  "vacancyForm": {
+    "savingVacancy": "Saving vacancy...",
+    "updatingVacancy": "Updating vacancy...",
+    "noTestMode": "Accept without test",
+    "enterTest": "Enter the test",
+    "modalTitleCreate": "Create New Vacancy",
+    "modalTitleEdit": "Edit Vacancy",
+    "allowQuestions": "Enable AI Interview Questions",
+    "acceptanceRate": "Acceptance rate",
+    "selectSite": {
+      "label": "Select Site",
+      "placeholder": "Choose a site"
+    },
+    "positionRole": {
+      "label": "Position Level (Junior / Middle / Senior)",
+      "placeholder": "Example: Junior, Middle, Senior, Lead"
+    },
+    "loadingSites": "Loading sites...",
+    "noSitesAvailable": "No sites available",
+    "title": {
+      "label": "Job Title",
+      "placeholder": "e.g. Frontend Developer"
+    },
+    "description": {
+      "label": "Job Description",
+      "placeholder": "Describe the job requirements and responsibilities..."
+    },
+    "optionalFields": "Additional Information",
+    "positionName": {
+      "label": "Position Name",
+      "placeholder": "e.g. Senior Developer"
+    },
+    "salary": {
+      "label": "Salary",
+      "placeholder": "e.g. 3000-5000 USD or Negotiable"
+    },
+    "workExperience": {
+      "label": "Work Experience",
+      "placeholder": "e.g. 2-3 years or Entry Level"
+    },
+    "salaryValyuta": {
+      "label": "Salary Valyuta",
+      "placeholder": "e.g. USD"
+    },
+    "numberOfQuestions": {
+      "label": "Number of Questions",
+      "placeholder": "e.g. 3"
+    },
+    "workTime": {
+      "label": "Work Time",
+      "placeholder": "e.g. 09:00 - 18:00"
+    },
+    "workSchedule": {
+      "label": "Work Schedule",
+      "placeholder": "e.g. 5/2, 6/1"
+    },
+    "required": {
+      "label": "Required Skills",
+      "placeholder": "e.g. React, TypeScript, Node.js, Problem-solving skills"
+    },
+    "requiredQuestion": {
+      "label": "Screening Question",
+      "placeholder": "Ask applicants a screening question..."
+    },
+    "cancel": "Cancel",
+    "saveAndAccept": "Save and Accept",
+    "submitSaving": "Saving...",
+    "submitSave": "Save Changes",
+    "submitCreate": "Create Vacancy",
+    "generateDescription": "Generate Description",
+    "generateLoading": "Generating...",
+    "generatingDescription": "Generating description...",
+    "generatingQuestions": "Generating questions...",
+    "questionsGenerated": "Questions generated successfully!",
+    "descriptionGenerated": "Description generated successfully!",
+    "errorGeneratingDescription": "Failed to generate description",
+    "generateQuestionsFailed": "Failed to generate questions",
+    "requiredFieldsForGeneration": "Please fill in Position Name and Required Skills to generate a description.",
+    "noToken": "No authentication token",
+    "noValidSites": "No valid sites available",
+    "noSites": "No sites available",
+    "errorFetchingSites": "Failed to fetch sites",
+    "selectSiteAlert": "Please select a site",
+    "updateSuccess": "Vacancy updated successfully!",
+    "createSuccess": "Vacancy created successfully!",
+    "updateError": "Failed to update vacancy",
+    "createError": "Failed to create vacancy",
+    "workShift": {
+      "label": "Work Shift"
+    },
+    "languageLevel": {
+      "label": "Language Proficiency Level"
+    },
+    "addLanguage": "Add Language",
+    "workExperienceOptions": {
+      "noExperience": "No Experience",
+      "0to1": "0–1 year",
+      "1to3": "1–3 years",
+      "3to6": "3–6 years",
+      "6plus": "6+ years"
+    },
+    "workShifts": {
+      "day": "Day",
+      "evening": "Evening",
+      "night": "Night"
+    },
+    "scheduleOptions": {
+      "5to2": "5/2",
+      "6to1": "6/1",
+      "2to2": "2/2",
+      "remote": "Remote"
+    },
+    "positionLevels": {
+      "intern": "Intern",
+      "junior": "Junior",
+      "middle": "Middle",
+      "senior": "Senior",
+      "lead": "Lead"
+    },
+    "languages": {
+      "uzbek": "Uzbek",
+      "russian": "Russian",
+      "english": "English"
+    },
+    "languageLevels": {
+      "beginner": "Beginner (A1-A2)",
+      "intermediate": "Intermediate (B1-B2)",
+      "advanced": "Advanced (C1-C2)",
+      "native": "Native"
+    },
+    "other": "Other (write yourself)",
+    "video": "Video",
+    "widget": "Widget",
+    "createVacancy": "Create Vacancy",
+    "editVacancy": "Edit Vacancy",
+    "createVacancyWithAI": "Create Vacancy with AI",
+    "dontAddOtherSkills": "Don't add other skills",
+    "dontAddOtherQuestions": "Don't add other questions",
+    "skillPlaceholder": "Skill...",
+    "aiQuestionPlaceholder": "AI Question...",
+    "errors": {
+      "titleRequired": "Title is required",
+      "skillsRequired": "Required/skills field is required",
+      "selectOption": "Please select at least one option: Video or Widget",
+      "selectSite": "Please select a site",
+      "authTokenMissing": "Authentication token missing",
+      "fillTitleAndQuestion": "Fill both title and required question to generate description",
+      "descriptionRequired": "Please enter initial information for description"
+    },
+    "messages": {
+      "vacancyCreated": "Vacancy created successfully",
+      "createVacancyFailed": "Failed to create vacancy",
+      "descriptionGenerated": "Description generated successfully",
+      "generateDescriptionFailed": "Failed to generate description",
+      "aiVacancySaved": "AI vacancy saved",
+      "saveAiVacancyFailed": "Failed to save AI vacancy"
+    },
+    "placeholders": {
+      "acceptanceRate": "e.g. 70",
+      "positionRole": "Junior / Middle / Senior",
+      "workSchedule": "Select work schedule",
+      "customWorkSchedule": "Enter work schedule (e.g. 3/3 or Flexible)",
+      "selectLanguage": "Select language",
+      "selectLevel": "Select level",
+      "skills": "Enter skills (each on a new line)...",
+      "questions": "Enter questions (each on a new line)...",
+      "positionRolePlaceholder": "Junior / Middle / Senior",
+      "workSchedulePlaceholder": "Select work schedule",
+      "languagePlaceholder": "Select language",
+      "levelPlaceholder": "Select level",
+      "skillInput": "Enter skill...",
+      "region": "Region",
+      "district": "District",
+      "locationInfo": "Additional location information",
+      "mapTitle": "Select Location",
+      "clearLocation": "Clear Location",
+      "saveLocation": "Save Location",
+      "aiDescriptionTitle": "Job Description (AI)",
+      "aiQuestionsTitle": "Job Questions (AI)",
+      "regenerate": "Regenerate",
+      "regenerating": "Generating...",
+      "addNewSkill": "Add \"{{skill}}\""
+    },
+    "regions": {
+      "region": "Region",
+      "district": "District"
+    },
+    "location": {
+      "title": "Select Location",
+      "clear": "Clear Location",
+      "save": "Save Location"
+    },
+    "aiModal": {
+      "descriptionTitle": "Job Description (AI)",
+      "questionsTitle": "Job Questions (AI)",
+      "regenerate": "Regenerate",
+      "regenerating": "Generating..."
+    }
+  },
+  "rightSection": {
+    "preview": "Vacancy Preview",
+    "companyName": "Company Name",
+    "otherCompany": "Other, Retail and Sales",
+    "jobDescription": "Job Description",
+    "aboutCompany": "About Company",
+    "vacancyTitle": "Vacancy Title",
+    "salary": "Salary",
+    "testType": "Test Type",
+    "workSchedule": "Work Schedule",
+    "experience": "Experience",
+    "shift": "Shift",
+    "skills": "Skills",
+    "studentsCanApply": "Students can also apply",
+    "languages": "Languages",
+    "about": "about",
+    "noCompanyInfo": "No company information available.",
+    "phone": "Phone",
+    "email": "Email"
+  },
+  "languages": {
+    "uzbek": "Uzbek",
+    "russian": "Russian",
+    "english": "English",
+    "arabic": "Arabic",
+    "french": "French",
+    "japanese": "Japanese"
+  },
+  "userTypes": {
+    "owner": "Owner"
+  },
+  "settingsPage": {
+    "modalTitle": "Action Required",
+    "modalSubtitle": "Please fill in the missing fields to continue.",
+    "modalBtn": "OK",
+    "fields": {
+      "company_name": "Company Name",
+      "company_phone": "Phone Number",
+      "description": "Company Description",
+      "message_template": "Message Template",
+      "location": "Location"
+    },
+    "warning": "Please fill in all company details to access other features.",
+    "refreshed": "Data refreshed",
+    "updateSuccess": "Profile updated successfully",
+    "header": {
+      "title": "Settings",
+      "subtitle": "Account and system settings"
+    },
+    "placeholders": {
+      "candidate_name": "Candidate's name",
+      "company_name": "Your company's name",
+      "company_phone": "Company phone number",
+      "position": "Interview position",
+      "interview_date": "Interview date",
+      "location": "Interview location"
+    },
+    "profile": {
+      "title": "Profile Information",
+      "subtitle": "Your personal information",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email...",
+      "emailHelp": "Logins and notifications will be sent to this email.",
+      "emailRequired": "Email is required",
+      "userType": "User Type",
+      "userId": "User ID",
+      "save": "Save"
+    },
+    "company": {
+      "title": "Company Information",
+      "subtitle": "Your company details",
+      "name": "Company Name",
+      "phone": "Company Phone",
+      "location": "Company Location",
+      "description": "Company Description",
+      "descriptionPlaceholder": "Enter your company description here"
+    },
+    "sms": {
+      "title": "SMS information"
+    },
+    "language": {
+      "title": "Language Settings",
+      "subtitle": "Select application language",
+      "current": "Current language",
+      "description": "Selected language will be applied to all pages"
+    },
+    "password": {
+      "title": "Change Password",
+      "subtitle": "Update your password for security",
+      "current": "Current password",
+      "currentPlaceholder": "Enter your current password",
+      "currentRequired": "Please enter your current password",
+      "validate": "Validate password",
+      "validated": "Password validated",
+      "invalidated": "Incorrect password",
+      "validationError": "Error validating password",
+      "valid": "Password is correct",
+      "invalid": "Current password is incorrect",
+      "validateFirst": "Validate your current password first",
+      "new": "New password",
+      "newPlaceholder": "Enter a new password (min. 6 characters)",
+      "confirm": "Confirm password",
+      "confirmPlaceholder": "Re-enter the new password",
+      "minLength": "New password must be at least 6 characters",
+      "minLengthError": "Password must be at least 6 characters",
+      "mismatch": "New passwords do not match",
+      "mismatchError": "Passwords do not match"
+    },
+    "sites": {
+      "title": "Sites",
+      "subtitle": "Your connected sites",
+      "domain": "Domain",
+      "publicKey": "Public Key",
+      "siteId": "Site ID",
+      "active": "Active",
+      "noSites": "No sites available"
+    },
+    "stats": {
+      "totalSites": "Total Sites",
+      "accountType": "Account Type",
+      "status": "Status",
+      "active": "Active"
+    }
+  },
+  "statisticsPage": {
+    "header": {
+      "title": "Statistics",
+      "subtitle": "View your application statistics and trends"
+    }
+  },
+  "stats": {
+    "granularity": "Granularity",
+    "granularityOptions": {
+      "day": "Day",
+      "week": "Week",
+      "month": "Month",
+      "sixMonths": "6 Months",
+      "year": "Year"
+    },
+    "periodCount": "Period Count",
+    "all": "All",
+    "refreshAria": "Refresh statistics",
+    "refresh": "Refresh",
+    "total": "Total",
+    "barTitle": "Applications per Period",
+    "barSubtitle": "Total requests over time",
+    "period": "Period",
+    "areaTitle": "Success vs Failed",
+    "areaSubtitle": "Breakdown of total, success, and failed applications",
+    "success": "Success",
+    "failed": "Failed",
+    "domainTitle": "Domain Breakdown",
+    "domainSubtitle": "Requests by domain",
+    "domainEmpty": "No domain statistics available"
+  },
+  "statsCards1": {
+    "refreshAria": "Refresh statistics"
+  },
+  "testsPage": {
+    "stats": {
+      "totalTests": "Total Tests"
+    },
+    "header": {
+      "title": "Tests (JobX)",
+      "subtitle": "A set of questions linked to a vacancy. Admin can start interviews anytime."
+    },
+    "actions": {
+      "newTest": "New test",
+      "edit": "Edit",
+      "delete": "Delete",
+      "startInterview": "Start interview"
+    },
+    "schedule": {
+      "actions": "Schedule Actions",
+      "meeting": "Schedule Meeting",
+      "aiVideo": "Schedule Ai Video"
+    },
+    "pkSet": "PK set:",
+    "list": {
+      "title": "Tests list"
+    },
+    "loading": "Loading…",
+    "empty": {
+      "title": "No tests yet",
+      "description": "Use the “New test” button to create one."
+    },
+    "vacancyId": "Vacancy ID",
+    "confirm": {
+      "deleteConfirm": "Are you sure you want to delete it?"
+    },
+    "toasts": {
+      "create": {
+        "loading": "Creating test...",
+        "success": "Test created successfully!",
+        "error": "Failed to create test"
+      },
+      "update": {
+        "loading": "Updating test...",
+        "success": "Test updated successfully!",
+        "error": "Failed to update test"
+      },
+      "delete": {
+        "loading": "Deleting test...",
+        "success": "Test deleted successfully!",
+        "error": "Failed to delete test"
+      },
+      "timeError": {
+        "time": "Please select a valid time"
+      }
+    },
+    "errors": {
+      "loadData": "Failed to load data",
+      "expired": "Link expired. This interview session has passed."
+    },
+    "modal": {
+      "createTitle": "Create new test",
+      "editTitle": "Edit test"
+    },
+    "deleteModal": {
+      "title": "Delete test?",
+      "message": "Are you sure you want to delete the \"{{title}}\" test?",
+      "delete": "Delete",
+      "deleting": "Deleting...",
+      "cancel": "Cancel"
+    }
+  },
+  "testForm": {
+    "title": {
+      "create": "Create new test",
+      "edit": "Edit test"
+    },
+    "fields": {
+      "vacancy": {
+        "label": "Vacancy",
+        "placeholder": "Select vacancy"
+      },
+      "positionName": {
+        "label": "Position name",
+        "placeholder": "Frontend Developer"
+      },
+      "positionRole": {
+        "label": "Position role",
+        "placeholder": "Junior / Middle / Senior"
+      },
+      "requiredQuestion": {
+        "label": "Required question",
+        "placeholder": "Required question(s)"
+      },
+      "required": {
+        "label": "Requirements",
+        "placeholder": "Requirements"
+      },
+      "workExperience": {
+        "label": "Work experience",
+        "placeholder": "1-3 years"
+      },
+      "testQuestion": {
+        "label": "Test question",
+        "placeholder": "Coding / theory questions..."
+      },
+      "numberOfQuestions": {
+        "label": "Number of questions",
+        "placeholder": "Enter number of questions"
+      }
+    },
+    "actions": {
+      "cancel": "Cancel",
+      "save": "Save",
+      "create": "Create",
+      "saving": "Saving...",
+      "creating": "Creating..."
+    },
+    "validation": {
+      "selectVacancy": "Please select a vacancy",
+      "positionNameRequired": "Position name is required",
+      "positionRoleRequired": "Position role is required",
+      "requiredQuestionRequired": "Required question is required",
+      "requiredRequired": "Requirements are required",
+      "workExperienceRequired": "Work experience is required",
+      "testQuestionRequired": "Test question is required"
+    },
+    "toasts": {
+      "create": {
+        "loading": "Creating test...",
+        "success": "Test created successfully!",
+        "error": "Failed to create test"
+      },
+      "update": {
+        "loading": "Updating test...",
+        "success": "Test updated successfully!",
+        "error": "Failed to update test"
+      }
+    }
+  },
+  "resultsPage": {
+    "header": {
+      "title": "Test Results",
+      "subtitle": "All test taker results"
+    },
+    "fetchSuccess": "Results loaded successfully",
+    "fetchFailed": "Failed to load results",
+    "refreshed": "Data refreshed",
+    "filters": {
+      "search": "Search",
+      "searchPlaceholder": "Search by name, phone or vacancy...",
+      "type": "Test Type",
+      "minScore": "Minimum Score",
+      "allScores": "All Scores",
+      "fromDate": "Date From",
+      "toDate": "Date To",
+      "toggle": "Filters"
+    },
+    "table": {
+      "name": "Name",
+      "phone": "Phone",
+      "score": "Score",
+      "vacancy": "Vacancy",
+      "date": "Date",
+      "status": "Status",
+      "actions": "Actions",
+      "viewDetails": "View Details",
+      "noResults": "No results found",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "stats": {
+      "total": "Total Results",
+      "passed": "Passed (60+)",
+      "average": "Average Score",
+      "filtered": "Displayed",
+      "high": "High Results (80+)",
+      "low": "Low Results (≤ 40)"
+    },
+    "modal": {
+      "title": "Detailed Information",
+      "personalInfo": "Personal Information",
+      "name": "Name",
+      "phone": "Phone",
+      "testResults": "Test Results",
+      "score": "Score",
+      "vacancy": "Vacancy",
+      "noVacancy": "Not specified",
+      "technicalInfo": "Technical Information",
+      "date": "Test Submitted Date",
+      "sessionId": "Session ID",
+      "resume": "Resume",
+      "status": "Status",
+      "active": "Active",
+      "inactive": "Inactive"
+    }
+  },
+  "adminDashboard": {
+    "title": "Admin Dashboard (Temporary Design)",
+    "stats": {
+      "totalUsers": {
+        "label": "Total Users"
+      },
+      "activeJobs": {
+        "label": "Active Jobs"
+      },
+      "pendingRequests": {
+        "label": "Pending Requests"
+      }
+    },
+    "header": {
+      "title": "Admin Panel",
+      "subtitle": "System management and settings",
+      "logoutModal": {
+        "title": "Confirm logout?",
+        "message": "Are you sure you want to log out from the admin panel?",
+        "cancel": "Cancel",
+        "confirm": "Logout"
+      }
+    },
+    "usersPage": {
+      "title": "Users",
+      "refreshBtn": "Refresh",
+      "totalUsers": "Total Users",
+      "activeUsers": "Active (Not Banned)",
+      "bannedUsers": "Banned Users",
+      "id": "ID",
+      "email": "Email",
+      "name": "Name",
+      "role": "Role",
+      "status": "Status",
+      "banned": "Blocked",
+      "notBanned": "Active",
+      "actions": "Actions",
+      "ban": "Block",
+      "unban": "Unblock",
+      "delete": "Delete",
+      "loading": "Loading...",
+      "errorLoading": "Error loading users",
+      "confirmDelete": "Are you sure you want to delete this user?",
+      "confirmBan": "Are you sure you want to toggle ban for this user?",
+      "deleteModalTitle": "Delete User",
+      "banModalTitle": " Ban User"
+    },
+    "common": {
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "loading": "Loading..."
+    },
+    "companyPage": {
+      "title": "Company Information",
+      "loading": "Loading...",
+      "refresh": "Refresh",
+      "company": "Company",
+      "companyCount": "{{count}} companies found",
+      "noData": "No company information found",
+      "messages": {
+        "loadSuccess": "Company information loaded successfully",
+        "loadError": "Error loading company info"
+      }
+    }
+  }
+}

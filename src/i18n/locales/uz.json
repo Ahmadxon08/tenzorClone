@@ -1,0 +1,1204 @@
+{
+  "login": {
+    "title": "Kirish",
+    "subtitle": "Admin panelga kiring",
+    "phoneNumber": "Telefon raqami",
+    "password": "Parol",
+    "emailPlaceholder": "email@example.com",
+    "passwordPlaceholder": "••••••••",
+    "loginButton": "Kirish",
+    "loggingIn": "Kirmoqda...",
+    "register": "Ro'yxatdan o'tish",
+    "error": "Email yoki parol noto'g'ri",
+    "forgotPassword": "Parolingizni unutdingizmi?",
+
+    "phoneRequired": "Telefon raqamingizni kiriting",
+    "phoneInvalid": "Telefon raqam noto‘g‘ri formatda",
+    "passwordRequired": "Parolni kiriting",
+    "passwordMin": "Parol kamida 6 ta belgidan iborat bo‘lishi kerak"
+  },
+  "waitPage": {
+    "days": "kun",
+    "hello": "Assalomu alaykum!",
+    "timeLeft": "Suhbat boshlanishiga qolgan vaqt:",
+    "hours": "soat",
+    "minutes": "daqiqa",
+    "seconds": "soniya",
+    "beforeStart": "Uchrashuvingiz boshlanishidan oldin",
+    "meanwhile": "Bemalol bu vaqtda kofe ichib turishingiz mumkun",
+    "ready": "Suhbatingiz boshlanishga tayyor.",
+    "refresh": "Boshlash uchun yangilang"
+  },
+  "register": {
+    "title": "Ro'yxatdan o'tish",
+    "subtitle": "Yangi akkaunt yarating",
+    "email": "Elektron pochta",
+    "password": "Parol",
+    "fullName": "To‘liq ism",
+    "fullNamePlaceholder": "To‘liq ismingizni kiriting",
+    "phoneNumber": "Telefon raqam",
+    "phonePlaceholder": "+998 90 123 45 67",
+    "passwordPlaceholder": "Parolni kiriting",
+
+    "companyName": "Kompaniya nomi",
+    "companyNamePlaceholder": "Kompaniya nomini kiriting",
+    "companyLanguage": "Kompaniya tili",
+    "companyLanguagePlaceholder": "Kompaniyaning asosiy tilini kiriting",
+    "companyLogo": "Kompaniya logosi",
+    "companyLogoPlaceholder": "Kompaniya logotipini yuklang",
+    "siteDomain": "Sayt domeni",
+    "siteDomainPlaceholder": "Saytingiz domenini kiriting",
+    "description": "Tavsif",
+    "descriptionPlaceholder": "Kompaniyangizni tavsiflang",
+    "tokenDuration": "Token muddati",
+    "tokenDurationPlaceholder": "Token muddatini tanlang",
+    "tokenDurationDay": "Kun",
+    "tokenDurationWeek": "Hafta",
+    "tokenDurationMonth": "Oy",
+
+    "emailPlaceholder": "email@example.com",
+    "confirmPassword": "Parolni tasdiqlash",
+    "confirmPasswordPlaceholder": "Parolingizni qayta kiriting",
+
+    "submit": "Akkaunt yaratish",
+    "creating": "Yaratilmoqda...",
+    "error": "Bu email bilan foydalanuvchi allaqachon mavjud",
+    "goToLogin": "Kirish",
+    "haveAccount": "Akkauntingiz bormi?",
+    "brand": "JOB",
+    "brandX": "X",
+    "verifyTitle": "Emailni tasdiqlang",
+    "verifySubtitle": "Tasdiqlash kodi emailingizga yuborildi.",
+    "codePlaceholder": "Tasdiqlash kodi",
+    "verify": "Tasdiqlash",
+    "verifying": "Tekshirilmoqda...",
+    "resendCode": "Qayta yuborish",
+    "resendIn": "{{seconds}} soniyadan keyin qayta yuborish",
+    "resendSuccess": "Kod qayta yuborildi.",
+    "resendError": "Kod yuborilmadi.",
+    "verifyError": "Noto‘g‘ri tasdiqlash kodi.",
+    "enterCode": "Tasdiqlash kodini kiriting.",
+    "back": "Orqaga",
+
+    "fullNameRequired": "Ism va familiya kiriting",
+    "fullNameMin": "Ism va familiya kamida 3 belgidan iborat bo‘lishi kerak",
+    "phoneRequired": "Telefon raqamingizni kiriting",
+    "phoneInvalid": "Telefon raqam noto‘g‘ri formatda",
+    "passwordRequired": "Parolni kiriting",
+    "passwordMin": "Parol kamida 6 ta belgidan iborat bo‘lishi kerak",
+    "confirmPasswordRequired": "Parolni tasdiqlang",
+    "companyNameRequired": "Kompaniya nomini kiriting",
+    "companyNameMin": "Kompaniya nomi kamida 2 belgidan iborat bo‘lishi kerak",
+    "descriptionRequired": "Tavsif kiriting",
+    "descriptionMin": "Tavsif kamida 10 belgidan iborat bo‘lishi kerak",
+    "tokenDurationRequired": "Token muddati kiriting",
+    "passwordsDontMatch": "Parollar mos kelmayapti"
+  },
+  "resetPassword": {
+    "title": "Parolni tiklash",
+    "subtitle": "Tiklash kodi olish uchun emailingizni kiriting",
+    "email": "Email",
+    "emailPlaceholder": "email@example.com",
+    "sendCode": "Kod yuborish",
+    "sending": "Yuborilmoqda...",
+    "haveCode": "Kod mavjudmi?",
+    "verifyTitle": "Yangi parol o‘rnatish",
+    "verifySubtitle": "Emailingizga yuborilgan kodni kiriting va yangi parol o‘rnating",
+    "codePlaceholder": "Tasdiqlash kodi",
+    "newPassword": "Yangi parol",
+    "confirmPassword": "Parolni tasdiqlang",
+    "passwordPlaceholder": "••••••••",
+    "confirmPasswordPlaceholder": "••••••••",
+    "submit": "Tasdiqlash",
+    "submitting": "Yuborilmoqda...",
+    "error": "Xatolik yuz berdi. Iltimos, qaytadan urinib ko‘ring.",
+    "back": "Orqaga",
+    "resendCode": "Kodni qayta yuborish",
+    "resendIn": "{{seconds}}s ichida qayta yuborish",
+    "resendSuccess": "Tiklash kodi qayta yuborildi.",
+    "resendError": "Kodni qayta yuborib bo‘lmadi.",
+    "verifyError": "Noto‘g‘ri tasdiqlash kodi.",
+    "enterCode": "Iltimos, tasdiqlash kodini kiriting.",
+    "message": "Tasdiqlash kodi elektron pochtangizga yuborildi"
+  },
+  "navbar": {
+    "home": "Bosh sahifa",
+    "partners": "Hamkorlar",
+    "features": "Imkoniyatlar",
+    "collaboration": "Hamkorlik",
+    "analytics": "Tahlil",
+    "navigation": "Navigatsiya",
+    "login": "Kirish",
+    "dashboard": "Boshqaruv paneli",
+    "users": "Foydalanuvchilar",
+    "settings": "Sozlamalar",
+    "logout": "Chiqish"
+  },
+  "sidebar": {
+    "vacancies": "Vakansiyalar",
+    "applications": "Arizalar",
+    "statistics": "Statistika",
+    "settings": "Sozlamalar",
+    "status": "Status",
+    "online": "Onlayn",
+    "sites": "Saytlar",
+    "results": "Natijalar",
+    "crm": "CRM tizimlari"
+  },
+  "workExperience": {
+    "noExperience": "Tajribasiz",
+    "zeroToOne": "0–1 yil",
+    "oneToThree": "1–3 yil",
+    "threeToSix": "3–6 yil",
+    "sixPlus": "6+ yil"
+  },
+  "scheduleOptions": {
+    "fiveTwo": "5/2",
+    "sixOne": "6/1",
+    "twoTwo": "2/2",
+    "remote": "Masofaviy"
+  },
+  "skills": {
+    "adaptability": "Moslashuvchanlik (adaptivlik)",
+    "initiative": "Tashabbuskorlik",
+    "workEthic": "Ishbilarmonlik etikasi",
+    "peopleSkills": "Insonlar bilan ishlash",
+    "criticalThinking": "Tanqidiy fikrlash",
+    "emotionalStability": "Emotional barqarorlik",
+    "proactivity": "Proaktivlik",
+    "graphql": "GraphQL",
+    "hrms": "HRMS tizimlari",
+    "crm": "CRM tizimlari"
+  },
+  "common": {
+    "language": "Til",
+    "save": "Saqlash",
+    "cancel": "Bekor qilish",
+    "delete": "O'chirish",
+    "edit": "Tahrirlash",
+    "noCandidates": "Bu pozitsiyaga nomzodlar topilmadi",
+    "close": "Yopish",
+    "open": "Ochish",
+    "search": "Qidirish",
+    "filter": "Filter",
+    "export": "Eksport",
+    "import": "Import",
+    "download": "Yuklab olish",
+    "upload": "Yuklash",
+    "view": "Ko'rish",
+    "add": "Qo'shish",
+    "remove": "Olib tashlash",
+    "update": "Yangilash",
+    "submit": "Yuborish",
+    "reset": "Qayta tiklash",
+    "confirm": "Tasdiqlash",
+    "loading": "Yuklanmoqda...",
+    "success": "Muvaffaqiyatli",
+    "error": "Xatolik",
+    "warning": "Ogohlantirish",
+    "info": "Ma'lumot",
+    "refresh": "Yangilash",
+    "saving": "Saqlanmoqda...",
+    "verifying": "Tekshirilmoqda..."
+  },
+  "search": {
+    "placeholder": "Vakansiya qidirish..."
+  },
+  "siteSelect": {
+    "placeholder": "Saytni tanlang"
+  },
+  "createButton": "Yaratish",
+  "loading": "Yuklanmoqda...",
+  "empty": {
+    "noResults": "Natija topilmadi",
+    "noVacancies": "Vakansiya mavjud emas",
+    "searchAgain": "Boshqa qidiruv so'rovi bilan urinib ko'ring",
+    "createFirst": "Birinchi vakansiyani yarating va nomzodlarni topishni boshlang",
+    "createVacancy": "Vakansiya yaratish"
+  },
+  "1": {
+    "title": "Status",
+    "refreshAria": "Yangilash",
+    "refreshButton": "Yangilash",
+    "totalVacancies": {
+      "title": "Jami vakansiyalar"
+    },
+    "newApplications": {
+      "title": "Yangi arizalar",
+      "hint": "Oxirgi 7 kun"
+    },
+    "widgetStatus": {
+      "title": "Widget holati",
+      "value": "Faol",
+      "hint": "Onlayn"
+    },
+    "lastUpdate": {
+      "prefix": "Oxirgi yangilanish: ",
+      "time": "hozir"
+    }
+  },
+  "vacancyCard": {
+    "editTitle": "Tahrirlash",
+    "deleteTitle": "O'chirish",
+    "noCandidates": "Bu pozitsiyaga nomzodlar topilmadi",
+    "message": "Intervyudan so'ng",
+    "vacancyModal": {
+      "delete": "O'chirish",
+      "deleting": "O‘chirilmoqda...",
+      "cancel": "Bekor qilish",
+      "title": "Vakansiyani o'chirish?",
+      "message": "Haqiqatan ham \"{{title}}\" nomli vakansiyani o'chirmoqchimisiz?"
+    }
+  },
+  "widgetInfo": {
+    "widgetCode": {
+      "title": "Widget kodi",
+      "copied": "Nusxa olindi",
+      "copy": "Nusxa olish"
+    },
+    "siteInfo": {
+      "title": "Sayt ma'lumotlari",
+      "publicKey": "Ochiq kalit",
+      "domain": "Domen",
+      "openSite": "Saytni ochish"
+    },
+    "help": {
+      "title": "Yordam kerakmi?",
+      "text": "Widget o'rnatish bo'yicha qo'llanma",
+      "view": "Ko'rish"
+    }
+  },
+  "widgetConfigurator": {
+    "header": "Widget Sozlamalari",
+    "publicKey": "Ommaviy kalit",
+    "presets": "Tayyor mavzular",
+    "Moviy": "Moviy",
+    "Yashil": "Yashil",
+    "Qora": "Qora",
+    "uploadIcon": "Ikonka yuklash",
+    "widgetPosition": "Widget joylashuvi",
+    "positionRight": "O'ng",
+    "positionLeft": "Chap",
+    "positionBottom": "Past",
+    "stickedToScreen": "Ekranning yon tomoniga yopishtirilgan",
+    "Glassmorphism (Indigo)": "Glassmorphism (Indigo)",
+    "Glassmorphism (Dark Frost)": "Glassmorphism (Qorong'u Frost)",
+    "Glassmorphism (Light Frost)": "Glassmorphism (Yorug' Frost)",
+    "specialSettings": "Maxsus sozlamalar",
+    "btnColor": "Tugma rangi",
+    "btnTextColor": "Tugma matni rangi",
+    "headerBg": "Sarlavha foni",
+    "headerText": "Sarlavha matni rangi",
+    "messageBg": "Bot xabar foni",
+    "messageText": "Bot xabar matni",
+    "chatBg": "Chat foni",
+    "userMessageBg": "Foydalanuvchi xabar foni",
+    "userMessageText": "Foydalanuvchi xabar matni",
+    "readyScript": "Tayyor skript",
+    "copied": "Nusxa olindi",
+    "copy": "Nusxalash",
+    "installationNote": "Ushbu kodni saytingiz HTML fayliga qo‘shing",
+    "preview": "Ko‘rinish (real vaqt)",
+    "chat": "Xabarlashish",
+    "HRdepartment": "Kadrlar bo‘limi",
+    "typeMessage": "Xabar yozing...",
+    "advice": "💡 Maslahat",
+    "customizeNote": "Ranglarni o‘zgartiring va natijani darhol ko‘ring. 3 ta tayyor mavzudan birini tanlang yoki o‘zingiznikini yarating.",
+    "mockData": [
+      {
+        "id": 1,
+        "title": "Operator call-markazi",
+        "salary": "N/A",
+        "applied": false
+      },
+      {
+        "id": 2,
+        "title": "Backend",
+        "salary": "400$-700$",
+        "applied": false
+      },
+      {
+        "id": 3,
+        "title": "Frontend",
+        "salary": "400$-700$",
+        "applied": true
+      },
+      {
+        "id": 4,
+        "title": "AI Engineer",
+        "salary": "400$-700$",
+        "applied": false
+      }
+    ]
+  },
+  "dashboardHeader": {
+    "logoutModal": {
+      "title": "Chiqishni tasdiqlash",
+      "message": "Haqiqatan ham chiqmoqchimisiz?",
+      "cancel": "Bekor qilish",
+      "confirm": "Chiqish"
+    }
+  },
+  "vacancyPage": {
+    "applications": "Arizalar:",
+    "header": {
+      "title": "Vakansiyalar",
+      "subtitle": "Ish eʼlonlaringizni yarating va boshqaring"
+    }
+  },
+  "sitesPage": {
+    "header": {
+      "title": "Saytlar",
+      "subtitle": "Saytlaringizni boshqaring"
+    },
+    "stats": {
+      "total": "Jami saytlar",
+      "active": "Faol saytlar",
+      "inactive": "Nofaol saytlar"
+    },
+    "alerts": {
+      "loadError": "Saytlarni yuklashda xatolik",
+      "deleteError": "Saytni o'chirishda xatolik",
+      "addError": "Sayt qo'shishda xatolik yuz berdi",
+      "domainError": "Sayt domeni http:// yoki https:// bilan boshlanishi kerak",
+      "addSuccess": "Sayt muvaffaqiyatli qo'shildi!",
+      "deleteSuccess": "Sayt muvaffaqiyatli o'chirildi",
+      "deleteConfirm": "Rostdan ham bu saytni o'chirmoqchimisiz?"
+    },
+    "addForm": {
+      "title": "Yangi Sayt Qo'shish",
+      "nameLabel": "Sayt Nomi *",
+      "namePlaceholder": "Mening saytim",
+      "domainLabel": "Sayt Domeni *",
+      "domainPlaceholder": "https://example.com",
+      "submitButton": "Sayt Qo'shish",
+      "submitting": "Qo'shilmoqda..."
+    },
+    "list": {
+      "title": "Mavjud Saytlar",
+      "loading": "Yuklanmoqda...",
+      "empty": {
+        "title": "Saytlar mavjud emas",
+        "description": "Birinchi saytni qo'shing va vakansiyalarni boshqarishni boshlang"
+      },
+      "statusActive": "Faol",
+      "statusInactive": "Nofaol",
+      "editButton": "Tahrirlash",
+      "configButton": "Sozlash",
+      "editModal": {
+        "title": "Saytni tahrirlash",
+        "message": "\"{{title}}\" nomli sayt ma’lumotlarini yangilashingiz mumkin.",
+        "nameLabel": "Sayt nomi",
+        "domainLabel": "Sayt domeni",
+        "namePlaceholder": "Yangi sayt nomini kiriting",
+        "domainPlaceholder": "Yangi domen manzilini kiriting",
+        "saveName": "Nomni yangilash",
+        "saveDomain": "Domenni yangilash",
+        "saving": "Saqlanmoqda...",
+        "cancel": "Bekor qilish"
+      },
+      "deleteButton": "O'chirish",
+      "deleteModal": {
+        "title": "Saytni o‘chirish?",
+        "message": "Haqiqatan ham \"{{title}}\" nomli saytni o‘chirmoqchimisiz?",
+        "delete": "O‘chirish",
+        "deleting": "O‘chirilmoqda...",
+        "cancel": "Bekor qilish"
+      }
+    }
+  },
+  "applicationsPage": {
+    "header": {
+      "title": "Arizalar",
+      "subtitle": "Barcha nomzodlarni ko‘rish va filtr qilish"
+    },
+    "stats": {
+      "totalApplications": {
+        "title": "Jami arizalar"
+      },
+      "highScore": {
+        "title": "Yuqori ballar soni"
+      },
+      "avgScore": {
+        "title": "O‘rtacha ballar soni"
+      }
+    },
+    "search": {
+      "placeholder": "Ism, telefon yoki vakansiya bo‘yicha qidirish..."
+    },
+    "siteSelect": {
+      "placeholder": "Saytni tanlang"
+    },
+    "refreshButton": "Yangilash",
+    "loading": "Yuklanmoqda...",
+    "filters": {
+      "title": "Filterlar",
+      "score": "Ball",
+      "result": "Natija",
+      "passed": "O‘tgan",
+      "failed": "O‘tolmagan",
+      "all": "Barchasi"
+    },
+    "empty": {
+      "noResults": "Hech narsa topilmadi",
+      "noApplications": "Hozircha arizalar yo‘q",
+      "searchAgain": "Boshqa so‘rov kiriting",
+      "createFirst": "Vakansiyalar bo‘yicha arizalar shu yerda paydo bo‘ladi"
+    },
+    "card": {
+      "scoreUnit": "ball",
+      "resumeTitle": "Rezyume",
+      "downloadResume": "Rezyumeni yuklab olish",
+      "downloading": "Yuklanmoqda...",
+      "download": "Yuklab olish",
+      "view": "Ko‘rish",
+      "viewed": "Ko‘rilgan",
+      "passed": "O‘tgan",
+      "failed": "O‘tolmagan"
+    },
+    "errors": {
+      "errorDownload": "Yuklab olishda xatolik",
+      "errorLoad": "Arizalarni yuklashda xatolik",
+      "errorFilter": "Filterni qo‘llashda xatolik"
+    },
+    "pagination": {
+      "previous": "Oldingi",
+      "next": "Keyingi",
+      "rowsPerPage": "Sahifadagi qatorlar",
+      "select": "Tanlash",
+      "page": "Sahifa",
+      "of": "dan",
+      "noData": "Ma’lumot mavjud emas"
+    },
+    "chatModal": {
+      "title": "{{name}} bilan chat",
+      "closeButton": "Chatni yopish",
+      "noMessages": "Hozircha xabarlar yo'q",
+      "loading": "Chat yuklanmoqda...",
+      "viewChat": {
+        "chat": "Chatni ko'rish"
+      },
+      "sendMessage": "Xabar yuborish",
+      "placeholder": "Xabar yozing...",
+      "downloadVideo": "Videoni yuklab olish",
+      "downloading": "Yuklanmoqda...",
+      "videoNotSupported": "Brauzeringiz video formatini qo'llab-quvvatlamaydi."
+    },
+    "tabs": {
+      "applications": "Arizalar",
+      "accepted": "Qabul qilinganlar",
+      "results": "Videolar"
+    },
+    "table": {
+      "name": "Ism",
+      "phone": "Telefon",
+      "vacancy": "Vakansiya",
+      "site": "Sayt",
+      "score": "Ball",
+      "status": "Holat",
+      "date": "Sana",
+      "actions": "Amallar",
+      "view": "Rezyumeni ko‘rish",
+      "download": "Rezyumeni yuklab olish",
+      "chat": "Chat",
+      "call": "Qo‘ng‘iroq qilish"
+    },
+    "call": {
+      "title": "Suhbatga chaqirish",
+      "applicant": "Ariza beruvchi",
+      "details": "Suhbat tafsilotlari",
+      "position": "Lavozim sarlavhasi",
+      "positionPh": "Masalan: Senior Developer",
+      "description": "Tavsifi",
+      "descriptionPh": "Suhbat haqida tafsilotlarni yozing...",
+      "date": "Suhbat vaqti",
+      "company": "Kompaniya",
+      "hr": "HR Ma'lumotlari",
+      "save": "Saqlash",
+      "saveSuccess": "HR ma'lumotlari saqlandi ✓",
+      "loadSuccess": "{name} maʼlumotlari yuklandi ✓",
+      "savedProfiles": "Saqlangan profillar",
+      "deleteConfirm": "Bu profilni o'chirishni istaysizmi?",
+      "deleted": "Profil o'chirildi",
+      "hrName": "HR Ismi",
+      "hrNamePh": "Masalan: Aliyev Anvar",
+      "hrPhone": "HR Telefon raqami",
+      "hrPhonePh": "+998 90 123 45 67",
+      "location": "Lokatsiya (mapdan tanlang)",
+      "requiredNote": "* Majburiy maydonlar",
+      "cancel": "Bekor qilish",
+      "submit": "Suhbatga chaqirish",
+      "errorRequired": "Iltimos, barcha majburiy maydonlarni to'ldiring"
+    }
+  },
+  "common1": {
+    "refresh": "Yangilash"
+  },
+  "error": {
+    "fetchFailed": "Ma'lumotlarni yuklashda xatolik",
+    "updateFailed": "Profilni yangilashda xatolik"
+  },
+  "vacancyForm": {
+    "savingVacancy": "Vakansiya saqlanmoqda...",
+    "updatingVacancy": "Vakansiya yangilanmoqda...",
+    "noTestMode": "Testsiz qabul qilish",
+    "enterTest": "Testni kiriting",
+    "modalTitleCreate": "Yangi vakansiya yaratish",
+    "modalTitleEdit": "Vakansiyani tahrirlash",
+    "allowQuestions": "AI intervyu savollarini yoqish",
+    "acceptanceRate": "Qabul qilish darajasi ",
+    "selectSite": {
+      "label": "Saytni tanlang",
+      "placeholder": "Saytni tanlang"
+    },
+    "positionRole": {
+      "label": "Lavozim darajasi (Junior / Middle / Senior)",
+      "placeholder": "Masalan: Junior, Middle, Senior, Lead"
+    },
+    "loadingSites": "Saytlar yuklanmoqda...",
+    "noSitesAvailable": "Saytlar mavjud emas",
+    "title": {
+      "label": "Ish nomi",
+      "placeholder": "Masalan, Frontend dasturchi"
+    },
+    "description": {
+      "label": "Ish tavsifi",
+      "placeholder": "Ish talablari va mas'uliyatlarini tasvirlab bering..."
+    },
+    "optionalFields": "Qo‘shimcha ma’lumotlar",
+    "positionName": {
+      "label": "Lavozim nomi",
+      "placeholder": "Masalan, Katta dasturchi"
+    },
+    "salary": {
+      "label": "Maosh",
+      "placeholder": "Masalan, 3000–5000 USD yoki kelishilgan"
+    },
+    "salaryValyuta": {
+      "label": "Maosh valyuta",
+      "placeholder": "Masalan, USD"
+    },
+    "workExperience": {
+      "label": "Ish tajribasi",
+      "placeholder": "Masalan, 2–3 yil yoki boshlang‘ich daraja"
+    },
+    "numberOfQuestions": {
+      "label": "Savollar soni",
+      "placeholder": "Masalan: 3"
+    },
+    "workTime": {
+      "label": "Ish vaqti",
+      "placeholder": "Masalan: 09:00 - 18:00"
+    },
+    "workSchedule": {
+      "label": "Ish jadvali",
+      "placeholder": "Masalan, 5/2, 6/1"
+    },
+    "required": {
+      "label": "Talab qilinadigan ko‘nikmalar",
+      "placeholder": "Masalan, React, TypeScript, Node.js, Muammo yechish ko‘nikmalari"
+    },
+    "requiredQuestion": {
+      "label": "Saralash savoli",
+      "placeholder": "Nomzodlarga beriladigan savolni yozing..."
+    },
+    "cancel": "Bekor qilish",
+    "saveAndAccept": "Saqlash va Qabul qilish",
+    "submitSaving": "Saqlanmoqda...",
+    "submitSave": "Saqlash",
+    "submitCreate": "Vakansiya yaratish",
+    "editVacancy": "Vakansiyani tahrirlash",
+    "generateDescription": "Tavsifni generatsiya qilish",
+    "generateLoading": "Generatsiya qilinmoqda...",
+    "generatingDescription": "Tavsif generatsiya qilinmoqda...",
+    "generatingQuestions": "Savollar generatsiya qilinmoqda...",
+    "questionsGenerated": "Savollar muvaffaqiyatli generatsiya qilindi!",
+    "descriptionGenerated": "Tavsif muvaffaqiyatli generatsiya qilindi!",
+    "errorGeneratingDescription": "Tavsifni generatsiya qilib bo‘lmadi",
+    "generateQuestionsFailed": "Savollarni generatsiya qilib bo'lmadi",
+    "requiredFieldsForGeneration": "Iltimos, tavsifni generatsiya qilish uchun Lavozim nomi va Talab qilinadigan ko‘nikmalarni to‘ldiring.",
+    "noToken": "Autentifikatsiya tokeni topilmadi",
+    "noValidSites": "Yaroqli saytlar mavjud emas",
+    "noSites": "Saytlar mavjud emas",
+    "errorFetchingSites": "Saytlar ro‘yxatini olishda xatolik",
+    "selectSiteAlert": "Iltimos, saytni tanlang",
+    "updateSuccess": "Vakansiya muvaffaqiyatli yangilandi!",
+    "createSuccess": "Vakansiya muvaffaqiyatli yaratildi!",
+    "updateError": "Vakansiyani yangilab bo‘lmadi",
+    "createError": "Vakansiyani yaratib bo‘lmadi",
+    "workShift": {
+      "label": "Ish smenasi"
+    },
+    "positionLevel": {
+      "label": "Lavozim darajasi",
+      "placeholder": "Junior / Middle / Senior",
+      "intern": "Intern",
+      "junior": "Junior",
+      "middle": "Middle",
+      "senior": "Senior",
+      "lead": "Lead"
+    },
+    "languageLevel": {
+      "label": "Til bilish darajasi"
+    },
+    "addLanguage": "Til qo'shish",
+    "workExperienceOptions": {
+      "noExperience": "Tajribasiz",
+      "0to1": "0–1 yil",
+      "1to3": "1–3 yil",
+      "3to6": "3–6 yil",
+      "6plus": "6+ yil"
+    },
+    "workShifts": {
+      "day": "Kunduzgi",
+      "evening": "Kechki",
+      "night": "Tungi"
+    },
+    "scheduleOptions": {
+      "5to2": "5/2",
+      "6to1": "6/1",
+      "2to2": "2/2",
+      "remote": "Masofaviy"
+    },
+    "positionLevels": {
+      "intern": "Intern",
+      "junior": "Junior",
+      "middle": "Middle",
+      "senior": "Senior",
+      "lead": "Lead"
+    },
+    "languages": {
+      "uzbek": "O'zbek tili",
+      "russian": "Rus tili",
+      "english": "Ingliz tili"
+    },
+    "languageLevels": {
+      "beginner": "Boshlang'ich (A1-A2)",
+      "intermediate": "O'rta (B1-B2)",
+      "advanced": "Yuqori (C1-C2)",
+      "native": "Ona tili"
+    },
+    "other": "Boshqa (o'zingiz yozing)",
+    "video": "Video",
+    "widget": "Widget",
+    "createVacancy": "Vakansiya yaratish",
+    "editVacancy": "Vakansiyani tahrirlash",
+    "createVacancyWithAI": "AI bilan vakansiya yaratish",
+    "dontAddOtherSkills": "Boshqa qobilyat qo'shmayman",
+    "dontAddOtherQuestions": "Boshqa savol qo'shmayman",
+    "skillPlaceholder": "Skill...",
+    "aiQuestionPlaceholder": "AI Question...",
+    "errors": {
+      "titleRequired": "Title is required",
+      "skillsRequired": "Required/skills field is required",
+      "selectOption": "Please select at least one option: Video or Widget",
+      "selectSite": "Please select a site",
+      "authTokenMissing": "Authentication token missing",
+      "fillTitleAndQuestion": "Iltimos, tavsif generatsiya qilish uchun lavozim nomi va talab qilinadigan savollarni to'ldiring",
+      "descriptionRequired": "Iltimos description uchun boshlangich malumot kiriting"
+    },
+    "messages": {
+      "vacancyCreated": "Vakansiya muvaffaqiyatli yaratildi",
+      "createVacancyFailed": "Vakansiyani yaratib bo'lmadi",
+      "descriptionGenerated": "Tavsif muvaffaqiyatli generatsiya qilindi",
+      "generateDescriptionFailed": "Tavsifni generatsiya qilib bo'lmadi",
+      "aiVacancySaved": "AI vakansiyasi saqlandi",
+      "saveAiVacancyFailed": "AI vakansiyasini saqlab bo'lmadi"
+    },
+    "placeholders": {
+      "acceptanceRate": "Masalan: 70",
+      "positionRole": "Junior / Middle / Senior",
+      "workSchedule": "Ish jadvalini tanlang",
+      "customWorkSchedule": "Ish jadvalini kiriting (masalan: 3/3 yoki Erkin)",
+      "selectLanguage": "Tilni tanlang",
+      "selectLevel": "Darajani tanlang",
+      "skills": "Mahoratlarni yozing (har biri yangi qatordan boshlansin)...",
+      "questions": "Savollarni yozing (har bir savol yangi qatordan boshlansin)...",
+      "positionRolePlaceholder": "Junior / Middle / Senior",
+      "workSchedulePlaceholder": "Ish jadvalini tanlang",
+      "languagePlaceholder": "Tilni tanlang",
+      "levelPlaceholder": "Darajani tanlang",
+      "skillInput": "Ko'nikma kiriting...",
+      "region": "Hudud",
+      "district": "Tuman",
+      "locationInfo": "Qo'shimcha joylashuv malumotni",
+      "mapTitle": "Joylashuvni tanlang",
+      "clearLocation": "Joylashuvni tozalash",
+      "saveLocation": "Joylashuvni saqlash",
+      "aiDescriptionTitle": "Ish tavsifi (AI)",
+      "aiQuestionsTitle": "Ish Savollar (AI)",
+      "regenerate": "Qayta yaratish",
+      "regenerating": "Yaratilmoqda...",
+      "addNewSkill": "\"{{skill}}\" ni qo'shish"
+    },
+    "positionLevels": {
+      "intern": "Intern",
+      "junior": "Junior",
+      "middle": "Middle",
+      "senior": "Senior",
+      "lead": "Lead"
+    },
+    "languageLevels": {
+      "beginner": "Boshlang'ich (A1-A2)",
+      "intermediate": "O'rta (B1-B2)",
+      "advanced": "Yuqori (C1-C2)",
+      "native": "Ona tili"
+    },
+    "regions": {
+      "region": "Hudud",
+      "district": "Tuman"
+    },
+    "location": {
+      "title": "Joylashuvni tanlang",
+      "clear": "Joylashuvni tozalash",
+      "save": "Joylashuvni saqlash"
+    },
+    "aiModal": {
+      "descriptionTitle": "Ish tavsifi (AI)",
+      "questionsTitle": "Ish Savollar (AI)",
+      "regenerate": "Qayta yaratish",
+      "regenerating": "Yaratilmoqda..."
+    }
+  },
+  "rightSection": {
+    "preview": "Vakansiya ko'rinishi (Preview)",
+    "companyName": "Kompaniya nomi",
+    "otherCompany": "Boshqa , Savdo va Ritley",
+    "jobDescription": "Ish tavsifi",
+    "aboutCompany": "Korxona haqida",
+    "vacancyTitle": "Vakansiya nomi",
+    "salary": "Sallary",
+    "testType": "Test turi",
+    "workSchedule": "Ish tartibi",
+    "experience": "Tajriba",
+    "shift": "Smena",
+    "skills": "Ko'nikmalar",
+    "studentsCanApply": "Talabalar ham topshirishi mumkin",
+    "languages": "Tillar",
+    "about": "haqida",
+    "noCompanyInfo": "Kompaniya haqida ma'lumot mavjud emas.",
+    "phone": "Telefon",
+    "email": "Email"
+  },
+  "languages": {
+    "uzbek": "O'zbek tili",
+    "russian": "Rus tili",
+    "english": "Ingliz tili",
+    "arabic": "Arab tili",
+    "french": "Frantsuz tili",
+    "japanese": "Yapon tili"
+  },
+  "userTypes": {
+    "owner": "Egasi"
+  },
+  "settingsPage": {
+    "modalTitle": "Taqiq",
+    "modalSubtitle": "Davom etish uchun ma'lumotlarni to'ldiring.",
+    "modalBtn": "Tushunarli",
+    "fields": {
+      "company_name": "Kompaniya nomi",
+      "company_phone": "Telefon raqami",
+      "description": "Kompaniya haqida",
+      "message_template": "Xabar shabloni",
+      "location": "Manzil"
+    },
+    "warning": "Barcha funksiyalardan foydalanish uchun kompaniya ma'lumotlarini to'ldiring.",
+    "refreshed": "Ma'lumotlar yangilandi",
+    "updateSuccess": "Profil muvaffaqiyatli yangilandi",
+    "header": {
+      "title": "Sozlamalar",
+      "subtitle": "Akkaunt va tizim sozlamalari"
+    },
+    "sms": {
+      "title": "SMS ma'lumotlari"
+    },
+    "language": {
+      "title": "Til sozlamalari",
+      "subtitle": "Ilova tilini tanlang",
+      "current": "Joriy til",
+      "description": "Tanlangan til barcha sahifalarda qo'llaniladi"
+    },
+    "placeholders": {
+      "candidate_name": "Nomzodning ismi",
+      "company_name": "Kompaniyangiz nomi",
+      "company_phone": "Kompaniya telefon raqami",
+      "position": "Suhbat lavozimi",
+      "interview_date": "Suhbat sanasi",
+      "location": "Suhbat manzili"
+    },
+    "profile": {
+      "title": "Profil ma'lumotlari",
+      "subtitle": "Sizning shaxsiy ma'lumotlaringiz",
+      "email": "Email",
+      "emailPlaceholder": "Email manzilingizni kiriting...",
+      "emailHelp": "Kirish va bildirishnomalar shu email orqali yuboriladi.",
+      "emailRequired": "Email kiritish kerak",
+      "userType": "Foydalanuvchi turi",
+      "userId": "Foydalanuvchi ID",
+      "save": "Saqlash"
+    },
+    "company": {
+      "title": "Kompaniya ma'lumotlari",
+      "subtitle": "Kompaniya haqida ma'lumotlaringiz",
+      "name": "Kompaniya nomi",
+      "phone": "Kompaniya telefoni",
+      "location": "Kompaniya manzili",
+      "description": "Kompaniya tavsifi",
+      "descriptionPlaceholder": "Kompaniya tavsifini kiriting"
+    },
+    "password": {
+      "title": "Parolni o‘zgartirish",
+      "subtitle": "Xavfsizlik uchun parolingizni yangilang",
+      "current": "Joriy parol",
+      "currentPlaceholder": "Joriy parolingizni kiriting",
+      "currentRequired": "Joriy parolni kiriting",
+      "validate": "Parolni tasdiqlash",
+      "validated": "Parol tasdiqlandi",
+      "invalidated": "Noto‘g‘ri parol",
+      "validationError": "Parolni tekshirishda xatolik",
+      "valid": "Parol to‘g‘ri",
+      "invalid": "Joriy parol noto‘g‘ri",
+      "validateFirst": "Avval joriy parolni tasdiqlang",
+      "new": "Yangi parol",
+      "newPlaceholder": "Yangi parolni kiriting (kamida 6 belgi)",
+      "confirm": "Parolni tasdiqlash",
+      "confirmPlaceholder": "Yangi parolni qayta kiriting",
+      "minLength": "Yangi parol kamida 6 belgidan iborat bo‘lishi kerak",
+      "minLengthError": "Parol kamida 6 belgidan iborat bo‘lishi kerak",
+      "mismatch": "Yangi parollar mos kelmayapti",
+      "mismatchError": "Parollar mos kelmaydi"
+    },
+    "sites": {
+      "title": "Saytlar",
+      "subtitle": "Sizning ulangan saytlaringiz",
+      "domain": "Domen",
+      "publicKey": "Ommaviy kalit",
+      "siteId": "Sayt ID",
+      "active": "Faol",
+      "noSites": "Hozircha saytlar yo‘q"
+    },
+    "stats": {
+      "totalSites": "Jami saytlar",
+      "accountType": "Akkaunt turi",
+      "status": "Status",
+      "active": "Faol"
+    }
+  },
+  "statisticsPage": {
+    "header": {
+      "title": "Statistika",
+      "subtitle": "Arizalaringiz statistikasi va tendensiyalarini ko‘ring"
+    }
+  },
+  "stats": {
+    "granularity": "Tafsilot darajasi",
+    "granularityOptions": {
+      "day": "Kunlik",
+      "week": "Haftalik",
+      "month": "Oylik",
+      "year": "Yillik",
+      "sixMonths": "Olti oylik"
+    },
+    "periodCount": "Davrlar soni",
+    "all": "Hammasi",
+    "refreshAria": "Statistikani yangilash",
+    "refresh": "Yangilash",
+    "total": "Jami",
+    "barTitle": "Har davr bo'yicha arizalar",
+    "barSubtitle": "Vaqt o'tishi bilan jami so'rovlar",
+    "period": "Davr",
+    "areaTitle": "Muvaffaqiyat vs Noto'g'ri",
+    "areaSubtitle": "Jami, muvaffaqiyatli va muvaffaqiyatsiz arizalarning tafsiloti",
+    "success": "Muvaffaqiyatli",
+    "failed": "Muvaffaqiyatsiz",
+    "domainTitle": "Domen bo'yicha bo'linma",
+    "domainSubtitle": "Domenlar bo'yicha so'rovlar",
+    "domainEmpty": "Domen statistikasi mavjud emas"
+  },
+  "statsCards1": {
+    "refreshAria": "Statistikani yangilash"
+  },
+  "statsCards": {
+    "title": "Status",
+    "refreshAria": "Yangilash",
+    "refreshButton": "Yangilash",
+    "totalVacancies": {
+      "title": "Jami vakansiyalar"
+    },
+    "vacanciesCount": {
+      "title": "Vakansiyalar soni"
+    },
+    "newApplications": {
+      "title": "Yangi arizalar",
+      "hint": "Oxirgi 7 kun"
+    },
+    "widgetStatus": {
+      "title": "Widget holati",
+      "value": "Faol",
+      "hint": "Onlayn"
+    },
+    "lastUpdate": {
+      "prefix": "Oxirgi yangilanish: ",
+      "time": "hozir"
+    }
+  },
+  "testsPage": {
+    "header": {
+      "title": "Testlar (JobX)",
+      "subtitle": "Vakansiyaga bog‘langan savollar to‘plami. Admin istalgan vaqtda suhbatni boshlashi mumkin."
+    },
+    "stats": {
+      "totalTests": "Testlar soni"
+    },
+    "actions": {
+      "newTest": "Yangi test",
+      "edit": "Tahrirlash",
+      "delete": "O‘chirish",
+      "startInterview": "Suhbatni boshlash"
+    },
+    "schedule": {
+      "actions": "Rejalashtirish amallari",
+      "meeting": "Uchrashuvni rejalashtirish",
+      "aiVideo": "AI Video rejalashtirish"
+    },
+    "pkSet": "PK o‘rnatildi:",
+    "list": {
+      "title": "Testlar ro‘yxati"
+    },
+    "loading": "Yuklanmoqda…",
+    "empty": {
+      "title": "Hali test yo‘q",
+      "description": "“Yangi test” tugmasidan foydalaning."
+    },
+    "vacancyId": "Vakansiya ID",
+    "confirm": {
+      "deleteConfirm": "Haqiqatan ham o‘chirmoqchimisiz?"
+    },
+    "toasts": {
+      "create": {
+        "loading": "Test yaratilmoqda...",
+        "success": "Test muvaffaqiyatli yaratildi!",
+        "error": "Test yaratishda xatolik"
+      },
+      "update": {
+        "loading": "Test yangilanmoqda...",
+        "success": "Test muvaffaqiyatli yangilandi!",
+        "error": "Test yangilashda xatolik"
+      },
+      "delete": {
+        "loading": "Test o‘chirilmoqda...",
+        "success": "Test muvaffaqiyatli o‘chirildi!",
+        "error": "Test o‘chirishda xatolik"
+      },
+      "timeError": {
+        "time": "Iltimos interview vaqtini tanlang."
+      }
+    },
+    "errors": {
+      "loadData": "Ma'lumotlarni yuklashda xatolik",
+      "expired": "Havola muddati tugagan. Ushbu suhbat vaqti o'tib ketgan."
+    },
+    "modal": {
+      "createTitle": "Yangi test yaratish",
+      "editTitle": "Testni tahrirlash"
+    },
+    "deleteModal": {
+      "title": "Testni o‘chirish?",
+      "message": "Haqiqatan ham \"{{title}}\" nomli testni o‘chirmoqchimisiz?",
+      "delete": "O‘chirish",
+      "deleting": "O‘chirilmoqda...",
+      "cancel": "Bekor qilish"
+    }
+  },
+  "testForm": {
+    "title": {
+      "create": "Yangi test yaratish",
+      "edit": "Testni tahrirlash"
+    },
+    "fields": {
+      "vacancy": {
+        "label": "Vakansiya",
+        "placeholder": "Vakansiya tanlang"
+      },
+      "positionName": {
+        "label": "Lavozim nomi",
+        "placeholder": "Frontend dasturchi"
+      },
+      "positionRole": {
+        "label": "Lavozim darajasi",
+        "placeholder": "Junior / Middle / Senior"
+      },
+      "requiredQuestion": {
+        "label": "Majburiy savol",
+        "placeholder": "Majburiy savol(lar)"
+      },
+      "required": {
+        "label": "Talablar",
+        "placeholder": "Talablar"
+      },
+      "workExperience": {
+        "label": "Ish tajribasi",
+        "placeholder": "1–3 yil"
+      },
+      "testQuestion": {
+        "label": "Test savoli",
+        "placeholder": "Kod yozish / nazariy savollar..."
+      },
+      "numberOfQuestions": {
+        "label": "Savollar soni",
+        "placeholder": "Savollar sonini kiriting"
+      }
+    },
+    "actions": {
+      "cancel": "Bekor qilish",
+      "save": "Saqlash",
+      "create": "Yaratish",
+      "saving": "Saqlanmoqda...",
+      "creating": "Yaratilmoqda..."
+    },
+    "validation": {
+      "selectVacancy": "Iltimos, vakansiya tanlang",
+      "positionNameRequired": "Lavozim nomi to‘ldirilishi shart",
+      "positionRoleRequired": "Lavozim darajasi to‘ldirilishi shart",
+      "requiredQuestionRequired": "Majburiy savol to‘ldirilishi shart",
+      "requiredRequired": "Talablar to‘ldirilishi shart",
+      "workExperienceRequired": "Ish tajribasi to‘ldirilishi shart",
+      "testQuestionRequired": "Test savoli to‘ldirilishi shart"
+    },
+    "toasts": {
+      "create": {
+        "loading": "Test yaratilmoqda...",
+        "success": "Test muvaffaqiyatli yaratildi!",
+        "error": "Test yaratishda xatolik"
+      },
+      "update": {
+        "loading": "Test yangilanmoqda...",
+        "success": "Test muvaffaqiyatli yangilandi!",
+        "error": "Test yangilashda xatolik"
+      }
+    }
+  },
+  "resultsPage": {
+    "header": {
+      "title": "Test natijalari",
+      "subtitle": "Barcha test topshiruvchilar natijalari"
+    },
+    "fetchSuccess": "Natijalar muvaffaqiyatli yuklandi",
+    "fetchFailed": "Natijalarni yuklashda xatolik yuz berdi",
+    "refreshed": "Ma’lumotlar yangilandi",
+    "filters": {
+      "search": "Qidirish",
+      "searchPlaceholder": "Ism, telefon yoki vakansiya bo'yicha qidirish...",
+      "type": "Test Turi",
+      "minScore": "Minimal ball",
+      "allScores": "Barcha ballar",
+      "fromDate": "Sana (dan)",
+      "toDate": "Sana (gacha)",
+      "toggle": "Filterlar"
+    },
+    "table": {
+      "name": "Ism",
+      "phone": "Telefon",
+      "score": "Ball",
+      "vacancy": "Vakansiya",
+      "date": "Sana",
+      "status": "Holat",
+      "actions": "Amallar",
+      "viewDetails": "Batafsil ko‘rish",
+      "noResults": "Natijalar topilmadi",
+      "active": "Faol",
+      "inactive": "Nofaol"
+    },
+    "stats": {
+      "total": "Jami natijalar",
+      "passed": "O‘tganlar (60+)",
+      "average": "O‘rtacha ball",
+      "filtered": "Ko‘rsatilgan",
+      "high": "Yuqori natijalar (80+)",
+      "low": "Past natijalar (≤ 40)"
+    },
+    "modal": {
+      "title": "Batafsil ma’lumot",
+      "personalInfo": "Shaxsiy ma’lumotlar",
+      "name": "Ism",
+      "phone": "Telefon",
+      "testResults": "Test natijalari",
+      "score": "Ball",
+      "vacancy": "Vakansiya",
+      "noVacancy": "Ko‘rsatilmagan",
+      "technicalInfo": "Texnik ma’lumotlar",
+      "date": "Test topshirilgan sana",
+      "sessionId": "Sessiya ID",
+      "resume": "Rezyume",
+      "status": "Holat",
+      "active": "Faol",
+      "inactive": "Nofaol"
+    }
+  },
+  "adminDashboard": {
+    "title": "Admin Dashboard (Vaqtinchalik dizayn)",
+    "stats": {
+      "totalUsers": {
+        "label": "Jami foydalanuvchilar"
+      },
+      "activeJobs": {
+        "label": "Faol ish o'rinlari"
+      },
+      "pendingRequests": {
+        "label": "Kutilayotgan so'rovlar"
+      }
+    },
+    "header": {
+      "title": "Admin paneli",
+      "subtitle": "Barcha tizim sozlamalari va boshqaruvi",
+      "logoutModal": {
+        "title": "Chiqishni tasdiqlaysizmi?",
+        "message": "Rostdan ham admin panelidan chiqmoqchimisiz?",
+        "cancel": "Bekor qilish",
+        "confirm": "Chiqish"
+      }
+    },
+    "usersPage": {
+      "title": "Foydalanuvchilar",
+      "refreshBtn": "Yangilash",
+      "totalUsers": "Jami foydalanuvchilar",
+      "activeUsers": "Faol (bloklanmagan)",
+      "bannedUsers": "Bloklangan foydalanuvchilar",
+      "id": "ID",
+      "email": "Email",
+      "name": "Ism",
+      "role": "Roli",
+      "status": "Holati",
+      "actions": "Harakatlar",
+      "banned": "Bloklangan",
+      "notBanned": "Aktiv",
+      "ban": "Bloklash",
+      "unban": "Blokdan chiqarish",
+      "delete": "Oʻchirish",
+      "loading": "Yuklanmoqda...",
+      "errorLoading": "Foydalanuvchilarni yuklashda xatolik",
+      "confirmDelete": "Bu foydalanuvchini o‘chirmoqchimisiz?",
+      "confirmBan": "Bu foydalanuvchini bloklamoqchimisiz?",
+      "deleteModalTitle": "Foydalanuvchini o‘chirish",
+      "banModalTitle": "Foydalanuvchini bloklash",
+      "noUsers": "Foydalanuvchilar topilmadi"
+    },
+    "common": {
+      "confirm": "Tasdiqlang",
+      "cancel": "Bekor qilish",
+      "loading": "Yuklanmoqda..."
+    },
+    "companyPage": {
+      "title": "Kompaniya ma'lumotlari",
+      "loading": "Yuklanmoqda...",
+      "refresh": "Yangilash",
+      "company": "Kompaniya",
+      "companyCount": "{{count}} ta kompaniya topildi",
+      "noData": "Kompaniya ma'lumotlari topilmadi",
+      "messages": {
+        "loadSuccess": "Kompaniya ma'lumotlari muvaffaqiyatli yuklandi",
+        "loadError": "Kompaniya ma'lumotlarini yuklashda xatolik"
+      }
+    }
+  }
+}
