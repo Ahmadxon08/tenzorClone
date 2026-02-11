@@ -74,7 +74,6 @@ const SettingsPage: React.FC = () => {
   const [uploading, setUploading] = useState(false);
   const [companyDescription, setCompanyDescription] = useState<string>("");
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [fieldsToShow, setFieldsToShow] = useState<string[]>([]);
 
   const SMS_MAX_LENGTH = 185;
 
@@ -144,7 +143,6 @@ const SettingsPage: React.FC = () => {
         return;
       }
 
-      setFieldsToShow(missing);
       setIsModalOpen(true);
 
       hasToastShown.current = true;
@@ -325,9 +323,6 @@ const SettingsPage: React.FC = () => {
       setSaving(false);
     }
   };
-
-  // console.log("user malumot", userData.data);
-  // const userInfo = userData.data;
 
   const handlePasswordValidation = async () => {
     const isValid = await validateCurrentPassword();
@@ -1062,161 +1057,6 @@ const SettingsPage: React.FC = () => {
           </div>
         </aside>
       </div>
-      {isModalOpen && (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
-          {/* Backdrop - biroz xiraroq va qorong'uroq */}
-          <div
-            className="absolute inset-0 bg-black/80 backdrop-blur-md transition-opacity"
-            onClick={() => setIsModalOpen(false)}
-          />
-
-          {/* Modal Card */}
-          <div className="relative w-full max-w-md bg-[#0d1625] border border-white/10 p-8 rounded-[2rem] shadow-[0_20px_50px_rgba(0,0,0,0.5)]">
-            <div className="text-center">
-              <h2 className="text-2xl font-semibold text-white tracking-tight mb-2">
-                {t("settingsPage.modalTitle")}
-              </h2>
-              <p className="text-slate-400 text-sm mb-8">
-                {t("settingsPage.modalSubtitle")}
-              </p>
-
-              <div className="space-y-4 mb-8 text-left">
-                {fieldsToShow.map((field, idx) => {
-                  const fieldToStateKeyMap: Record<
-                    string,
-                    keyof CompanyInfo | "description"
-                  > = {
-                    company_name: "name",
-                    company_phone: "contactNumber",
-                    message_template: "smsTemplate",
-                    description: "description",
-                  };
-                  const mappedKey = fieldToStateKeyMap[field];
-                  return (
-                    <div key={idx} className="flex flex-col gap-1.5">
-                      <label className="text-xs font-medium text-slate-500 ml-1 uppercase tracking-wider">
-                        {t(`settingsPage.fields.${field}`)}
-                      </label>
-                      {mappedKey === "description" ? (
-                        <textarea
-                          required
-                          rows={1} // default 5 qator
-                          wrap="soft" // text pastga tushib yoziladi
-                          placeholder={`Enter ${t(`settingsPage.fields.${field.toLowerCase()}`)}`}
-                          value={companyDescription}
-                          onChange={(e) =>
-                            setCompanyDescription(e.target.value)
-                          }
-                          onInput={(e) => {
-                            const el = e.currentTarget;
-                            const lineHeight = 24;
-                            const maxRows = 5;
-                            const maxHeight = lineHeight * maxRows;
-
-                            el.style.height = "auto";
-                            el.style.height =
-                              el.scrollHeight <= maxHeight
-                                ? el.scrollHeight + "px"
-                                : maxHeight + "px";
-                            el.style.overflowY =
-                              el.scrollHeight <= maxHeight ? "hidden" : "auto";
-                          }}
-                          className="
-    bg-[#162235]
-    border border-white/5
-    text-white text-sm
-    rounded-xl
-    px-4 py-3
-    outline-none
-    focus:border-blue-500/50
-    focus:ring-1 focus:ring-blue-500/20
-    transition-all
-    placeholder:text-slate-600
-    resize-none
-    leading-relaxed
-  "
-                        />
-                      ) : (
-                        <>
-                          {mappedKey === "contactNumber" ? (
-                            <input
-                              required={true}
-                              // type='number'
-                              // placeholder='+9989 98 988 98 99'
-                              defaultValue={"+998"}
-                              onChange={(e) =>
-                                setCompanyInfo((prev) => ({
-                                  ...prev,
-                                  contactNumber: e.target.value.replace(
-                                    /[^0-9+]/g,
-                                    "",
-                                  ),
-                                }))
-                              }
-                              // onChange={e => {
-                              // 	e.target.value = e.target.value.replace(
-                              // 		/[^0-9+]/g,
-                              // 		"",
-                              // 	);
-                              // }}
-                              className="
-														w-full bg-[#162235] [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none border border-white/5 text-white text-sm rounded-xl px-4 py-3 outline-none focus:border-blue-500/50 focus:ring-1 focus:ring-blue-500/20 transition-all placeholder:text-slate-600"
-                            />
-                          ) : (
-                            // <input
-                            // 	required={true}
-                            // 	type='text'
-                            // 	onChange={e =>
-                            // 		setCompanyInfo(prev => ({
-                            // 			...prev,
-                            // 			[field]: e.target.value,
-                            // 		}))
-                            // 	}
-                            // 	placeholder={`Enter ${field.toLowerCase()}`}
-                            // 	className='w-full bg-[#162235] border border-white/5 text-white text-sm rounded-xl px-4 py-3 outline-none focus:border-blue-500/50 focus:ring-1 focus:ring-blue-500/20 transition-all placeholder:text-slate-600'
-                            // />
-                            <input
-                              required
-                              type="text"
-                              onChange={(e) =>
-                                setCompanyInfo((prev) => ({
-                                  ...prev,
-                                  [mappedKey as keyof CompanyInfo]:
-                                    e.target.value,
-                                }))
-                              }
-                              placeholder={`Enter ${t(`settingsPage.fields.${field.toLowerCase()}`)}`}
-                              // placeholder={`Enter ${field.toLowerCase()}`}
-                              className="w-full bg-[#162235] border border-white/5 text-white text-sm rounded-xl px-4 py-3 outline-none focus:border-blue-500/50 focus:ring-1 focus:ring-blue-500/20 transition-all placeholder:text-slate-600"
-                            />
-                          )}
-                        </>
-                      )}
-                    </div>
-                  );
-                })}
-              </div>
-
-              <div className="flex flex-col gap-3">
-                <button
-                  onClick={handleUpdateCompanyInfo}
-                  disabled={saving}
-                  className="w-full py-3.5 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-xl transition-all shadow-lg shadow-blue-900/20 active:scale-[0.98]"
-                >
-                  {t("settingsPage.modalBtn") || "Saqlash"}
-                </button>
-
-                {/* <button
-									onClick={() => setIsModalOpen(false)}
-									className='w-full py-2 text-slate-400 hover:text-white text-sm font-medium transition-colors'
-								>
-									Bekor qilish
-								</button> */}
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 };
